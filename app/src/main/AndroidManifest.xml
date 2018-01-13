@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.truanggg.lazada">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Lazada"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook" />
+        <!-- android:screenOrientation="portrait"  thuộc tính này chỉ cho phép màn hình đứng theo chiều dọc -->
+        <activity
+            android:name=".View.SlashViewActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.TrangChuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.DangNhap_DangKy.LoginActivity"
+            android:label="Đăng Nhập / Đăng Ký"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity android:name=".View.ChiTietSanPham.ChiTietSanPhamActivity" />
+        <activity
+            android:name=".View.DanhGia.DanhGiaActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".View.DanhGia.DanhSachDanhGiaActivity"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".View.GioHang.DanhSachSPGioHang"
+            android:label="Giỏ Hàng">
+
+        </activity>
+        <activity android:name=".View.ThanhToan.ThanhToanActivity"
+            android:label="Thanh Toán">
+
+        </activity>
+        <activity android:name=".View.TimKiem.TimKiemActivity"
+            android:label="Tiem Kiem">
+
+        </activity>
+    </application>
+
+</manifest>

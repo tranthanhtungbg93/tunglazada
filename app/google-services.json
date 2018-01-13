@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "318269622452",
+    "project_id": "firebase-logingglazada"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318269622452:android:99bb1fcacbad5fed",
+        "android_client_info": {
+          "package_name": "com.example.truanggg.lazada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318269622452-de38td432i7hh7ki5cpqb7fbg8507c6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.truanggg.lazada",
+            "certificate_hash": "02addef3b29b068de8e4a5db7ec3505a8e5aa1ff"
+          }
+        },
+        {
+          "client_id": "318269622452-d8kh2pldkl1gqnlm6sve5h15dnrqatrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7oQEqEpFq69O5YerbeRebQ7D-3a32P-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

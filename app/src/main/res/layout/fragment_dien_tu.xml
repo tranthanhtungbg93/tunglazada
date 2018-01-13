@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.truanggg.lazada.View.Fragment.DienTuFragment">
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <android.support.v7.widget.RecyclerView
+               android:id="@+id/recyclerViewDienTu"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </android.support.v7.widget.RecyclerView>
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:src="@drawable/backgroundplashscreen"
+               android:scaleType="centerCrop"
+               />
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+               <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+                   <FrameLayout
+                       android:layout_marginRight="5dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:scaleType="centerCrop"
+                           android:src="@drawable/backgroundplashscreen"
+                           android:layout_width="match_parent"
+                           android:layout_height="120dp" />
+                       <TextView
+                           android:gravity="center"
+                           android:paddingLeft="30dp"
+                           android:paddingRight="30dp"
+                           android:textAlignment="center"
+                           android:layout_gravity="center"
+                           android:textColor="@color/colorWhite"
+                           android:text="Top 150 SKU Bán Chạy Trong Tháng"
+                           android:background="@color/tranparentBlack"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent" />
+                   </FrameLayout>
+
+                   <FrameLayout
+                       android:layout_marginLeft="5dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:scaleType="centerCrop"
+                           android:src="@drawable/backgroundplashscreen"
+                           android:layout_width="match_parent"
+                           android:layout_height="120dp" />
+                       <TextView
+                           android:gravity="center"
+                           android:paddingLeft="30dp"
+                           android:paddingRight="30dp"
+                           android:textAlignment="center"
+                           android:layout_gravity="center"
+                           android:textColor="@color/colorWhite"
+                           android:text="Top SmartPhone Chất Lượng Giá Rẻ"
+                           android:background="@color/tranparentBlack"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent" />
+                   </FrameLayout>
+                </LinearLayout>
+               <LinearLayout
+                    android:layout_marginTop="10dp"
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <FrameLayout
+                       android:layout_marginRight="5dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:scaleType="centerCrop"
+                           android:src="@drawable/backgroundplashscreen"
+                           android:layout_width="match_parent"
+                           android:layout_height="120dp" />
+                       <TextView
+                           android:gravity="center"
+                           android:paddingLeft="30dp"
+                           android:paddingRight="30dp"
+                           android:textAlignment="center"
+                           android:layout_gravity="center"
+                           android:textColor="@color/colorWhite"
+                           android:text="Camera Hành Động"
+                           android:background="@color/tranparentBlack"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent" />
+                   </FrameLayout>
+                   <FrameLayout
+                       android:layout_marginLeft="5dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:scaleType="centerCrop"
+                           android:src="@drawable/backgroundplashscreen"
+                           android:layout_width="match_parent"
+                           android:layout_height="120dp" />
+                       <TextView
+                           android:gravity="center"
+                           android:paddingLeft="30dp"
+                           android:paddingRight="30dp"
+                           android:textAlignment="center"
+                           android:layout_gravity="center"
+                           android:textColor="@color/colorWhite"
+                           android:text="Top Tivi Có Màn Hình Lớn"
+                           android:background="@color/tranparentBlack"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent" />
+                   </FrameLayout>
+               </LinearLayout>
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <FrameLayout
+                       android:layout_marginLeft="5dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:id="@+id/imSanpham1"
+                           android:scaleType="centerCrop"
+                           android:src="@drawable/backgroundplashscreen"
+                           android:layout_width="match_parent"
+                           android:layout_height="120dp" />
+                       <TextView
+                           android:id="@+id/txt_san_pham1"
+                           android:gravity="center"
+                           android:paddingLeft="30dp"
+                           android:paddingRight="30dp"
+                           android:textAlignment="center"
+                           android:layout_gravity="bottom"
+                           android:textColor="@color/colorWhite"
+                           android:text="Top Tivi Có Màn Hình Lớn"
+                           android:background="@color/tranparentBlack"
+                           android:layout_width="match_parent"
+                           android:layout_height="50dp" />
+                   </FrameLayout>
+
+                   <FrameLayout
+                       android:layout_marginLeft="5dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:id="@+id/imSanpham2"
+                           android:scaleType="centerCrop"
+                           android:src="@drawable/backgroundplashscreen"
+                           android:layout_width="match_parent"
+                           android:layout_height="120dp" />
+                       <TextView
+                           android:id="@+id/txt_san_pham2"
+                           android:gravity="center"
+                           android:paddingLeft="30dp"
+                           android:paddingRight="30dp"
+                           android:textAlignment="center"
+                           android:layout_gravity="bottom"
+                           android:textColor="@color/colorWhite"
+                           android:text="Top Tivi Có Màn Hình Lớn"
+                           android:background="@color/tranparentBlack"
+                           android:layout_width="match_parent"
+                           android:layout_height="50dp" />
+                   </FrameLayout>
+
+                   <FrameLayout
+                       android:layout_marginLeft="5dp"
+                       android:layout_weight="1"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:id="@+id/imSanpham3"
+                           android:scaleType="centerCrop"
+                           android:src="@drawable/backgroundplashscreen"
+                           android:layout_width="match_parent"
+                           android:layout_height="120dp" />
+                       <TextView
+                           android:id="@+id/txt_san_pham3"
+                           android:gravity="center"
+                           android:paddingLeft="30dp"
+                           android:paddingRight="30dp"
+                           android:textAlignment="center"
+                           android:layout_gravity="bottom"
+                           android:textColor="@color/colorWhite"
+                           android:text="Top Tivi Có Màn Hình Lớn"
+                           android:background="@color/tranparentBlack"
+                           android:layout_width="match_parent"
+                           android:layout_height="50dp" />
+                   </FrameLayout>
+               </LinearLayout>
+           </LinearLayout>
+           <TextView
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:text="Top Các Thương Hiệu Lớn"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"/>
+           <android.support.v7.widget.RecyclerView
+               android:id="@+id/recyclerLogoThuongHieu"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </android.support.v7.widget.RecyclerView>
+           <TextView
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:text="Danh Sách Mới Về"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"/>
+           <android.support.v7.widget.RecyclerView
+               android:id="@+id/recyclerHangMoive"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </android.support.v7.widget.RecyclerView>
+       </LinearLayout>
+   </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

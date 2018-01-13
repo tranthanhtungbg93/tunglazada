@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView_detailProduct">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/imTopDienThoaiDienTu"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:src="@drawable/backgroundplashscreen"
+            android:scaleType="centerCrop" />
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtTieuDeTopDienThoaiDienTu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ten San Pham"/>
+            <TextView
+                android:id="@+id/txtGiaTopDienThoaiDienTu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e1060a"
+                android:textAlignment="center"
+                android:text="Gia San Pham"/>
+            <TextView
+                android:id="@+id/txtGiamGiaTopDienThoaiDienTu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Gia San Pham"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

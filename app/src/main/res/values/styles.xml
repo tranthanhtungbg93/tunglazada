@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ColorToolbar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/bgLogo</item>
+        <item name="android:textColorPrimary">#04f710</item>
+        <!--nút back ở fragment sẽ chuyển thành màu trắng-->
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+    <style name="changeColorDrawerToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorWhite</item>
+    </style>
+    <!--<item name="drawerArrowStyle">@style/changeColorDrawerToggle</item> kế thừa lại cái changeColorDrawerToggle-->
+    <style name="menuItemColor" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/ColorToolbar</item>
+        <item name="drawerArrowStyle">@style/changeColorDrawerToggle</item>
+    </style>
+    <style name="capfale" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+
+    </style>
+    
+    <declare-styleable name="PasswordEditText">
+        <attr name="useStrike" format="boolean"/>
+        <attr name="useValidate" format="boolean"/>
+    </declare-styleable>
+    <!--đổi màu ngôi sao rating bar chi tiết sản phẩm-->
+    <style name="DoimauRatingBar" parent="AppTheme">
+        <item name="colorControlNormal">@color/bgLogo</item>
+    </style>
+</resources>

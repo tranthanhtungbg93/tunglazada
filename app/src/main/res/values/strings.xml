@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lazada</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="facebook">141064966614826</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="server_client_id">318269622452-de38td432i7hh7ki5cpqb7fbg8507c6e.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Nhận xét về sản phẩm này "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RatingBar
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:transformPivotY="0dp"
+        android:transformPivotX="0dp"
+        android:id="@+id/rbDanhGia"
+        android:numStars="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/input_edTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:lines="1"
+            android:hint="Tiêu Đề"
+            android:maxLength="50"
+            android:id="@+id/edTieuDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/input_edNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Nội dung "
+            android:scrollbars="vertical"
+            android:maxLines="3"
+            android:id="@+id/edNoiDung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@color/bgLogo"
+        android:text="Đồng Ý"
+        android:id="@+id/btnDongy_danhgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

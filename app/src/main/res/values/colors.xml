@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#CCC</color>
+    <color name="colorWhite">#fff</color>
+    <color name="ColorToolbar">#183545</color>
+    <color name="bgLogo">#f67122</color>
+    <color name="colorFB">#4a6ea9</color>
+    <color name="colorGG">#da4835</color>
+    <color name="tranparentBlack">#B2000000</color>
+    <color name="colorSilder">#6f828c</color>
+</resources>

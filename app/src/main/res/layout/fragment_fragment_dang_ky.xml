@@ -1,0 +1,127 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="20sp"
+            android:text="Cần Điền Tất Cả Các Mục."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_HoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:hint="Họ Tên Đầy Đủ"
+                android:id="@+id/edHoTen"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:hint="Địa Chỉ Email"
+                android:id="@+id/edEmail"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_MatKhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.example.truanggg.lazada.CustomView.PasswordEditText
+                app:useValidate="true"
+                app:useStrike="true"
+                android:id="@+id/edMatKhau"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật Khẩu"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:text="Mật khẩu phải bao gồm ít nhất 6 ký tự và 1 chữ hoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_NhapLaiMatKhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.example.truanggg.lazada.CustomView.PasswordEditText
+                app:useStrike="true"
+                android:hint="Nhập Lại Mật Khẩu"
+                android:id="@+id/edNhapLaiMatKhau"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/scEmailDocQuyen"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Tôi Muốn Nhận Các Khuyến Mãi Độc Quyền Qua Email"/>
+        <Button
+            android:id="@+id/btnDangKyUser"
+            android:textColor="#000000"
+            android:background="@color/bgLogo"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Đăng Ký"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Chúng tôi đã đọc và hiểu rõ bảo mật của lazada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoặc Đăng Ký Bằng"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnDangNhapFB"
+                android:textColor="@color/colorFB"
+                android:background="@drawable/vienfacebook"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/facebookiconsmall"
+                android:text="FaceBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDangNhapGG"
+                android:background="@drawable/viengoogle"
+                android:textColor="@color/colorGG"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/googleplussmall"
+                android:text="Google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
